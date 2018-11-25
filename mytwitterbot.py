@@ -2,10 +2,10 @@ import tweepy
 #import twitter_credentials
 import time
 print("from my twitter bot")
-CONSUMER_KEY='wBC2fVnpIZoPE2myzhSTYRrG2'
-CONSUMER_SECRET='sPLwdInp850CD8jDHKcEJAH4AkK2cORUb0YtCC8GugQYpbGy0x'
-ACCESS_KEY='2999036906-AbewsOp0vg8esC99EmRn7L9pNGsRDEKChCz6qXh'
-ACCESS_SECRET='pHxRmWVfRRxhUxXjfcpj02eYepLsmIaHkPi1jnRhWg5SK'
+CONSUMER_KEY=''
+CONSUMER_SECRET=''
+ACCESS_KEY=''
+ACCESS_SECRET=''
 auth=tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api=tweepy.API(auth)
